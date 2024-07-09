@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .keyboard{
+        border: radius 10Px;
+        width: 1000px;
+        margin-left: 300Px;
+        margin-top: 10Px;
+        background-color:aqua;
+        border: 1Px solid brown;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20Px;
+        box-shadow: 0 0 10Px grey;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10Px;
+    }
+    .key{
+        width: 40Px;
+        height: 40Px;
+        margin: 5Px;
+        background-color:bisque;
+        border: 1Px solid blueviolet;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        font-style: normal;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    .key:hover{
+        background-color: darkgray;
+    }
+    .key:active{
+        box-shadow: 0 0 25Px blue;
+    }
+</style>
+<body>
+    <h1 style="color: brown; margin-left: 670Px;">KEYBOARD</h1>
+    <div class="row">
+        <div class="key">esc</div>
+        <div class="key">f1</div>
+        <div class="key">f2</div>
+        <div class="key">f3</div>
+        <div class="key">f4</div>
+        <div class="key">f5</div>
+        <div class="key">f6</div>
+        <div class="key">f7</div>
+        <div class="key">f8</div>
+        <div class="key">f9</div>
+        <div class="key">f10</div>
+        <div class="key">f11</div>
+        <div class="key">f12</div>
+        <div class="key" style="font-size: smaller;">prt sc</div>
+        <div class="key"style="font-size: smaller;">delete</div>
+        <div class="key"style="font-size: smaller;">home</div>
+        <div class="key"style="font-size: smaller;">end</div>
+        <div class="key"style="font-size: smaller;">pg up</div>
+        <div class="key"style="font-size: smaller;">pg dn</div>
+    </div>
+    <div class="row">
+        <div class="key">~</div>
+        <div class="key">!</div>
+        <div class="key">@</div>
+        <div class="key">#</div>
+        <div class="key">$</div>
+        <div class="key">%</div>
+        <div class="key">^</div>
+        <div class="key">&</div>
+        <div class="key">*</div>
+        <div class="key">(</div>
+        <div class="key">)</div>
+        <div class="key">_</div>
+        <div class="key">+</div>
+        <div class="key" style="width: 90px;font-size: smaller;">backspace</div>
+        <div class="key" style="width: 40px;font-size: x-small;">num lock</div>
+        <div class="key">/</div>
+        <div class="key">*</div>
+        <div class="key">-</div>
+    </div>
+    <div class="row">
+        <div class="key" style="width: 95px;">tab</div>
+        <div class="key">Q</div>
+        <div class="key">W</div>
+        <div class="key">E</div>
+        <div class="key">R</div>
+        <div class="key">T</div>
+        <div class="key">Y</div>
+        <div class="key">U</div>
+        <div class="key">I</div>
+        <div class="key">O</div>
+        <div class="key">P</div>
+        <div class="key">[</div>
+        <div class="key">]</div>
+        <div class="key">\</div>
+        <div class="key">7</div>
+        <div class="key">8</div>
+        <div class="key">9</div>
+        <div class="key" style="padding-bottom:60px;">+</div>
+    </div>
+    <div class="row" style="margin-top: -60px;margin-left: -50px;">
+        <div class="key" style="width: 100px;">caps lock</div>
+        <div class="key">A</div>
+        <div class="key">S</div>
+        <div class="key">D</div>
+        <div class="key">F</div>
+        <div class="key">G</div>
+        <div class="key">H</div>
+        <div class="key">J</div>
+        <div class="key">K</div>
+        <div class="key">L</div>
+        <div class="key">;</div>
+        <div class="key">'</div>
+        <div class="key" style="width: 40px; padding-left: 50px;font-size: smaller;">enter</div>
+        <div class="key">4</div>
+        <div class="key">5</div>
+        <div class="key">6</div>
+    </div>
+    <div class="row" style="margin-left: -50px;">
+        <div class="key" style="padding-left: 70px;">shift</div>
+        <div class="key">Z</div>
+        <div class="key">X</div>
+        <div class="key">C</div>
+        <div class="key">V</div>
+        <div class="key">B</div>
+        <div class="key">N</div>
+        <div class="key">M</div>
+        <div class="key">,</div>
+        <div class="key">.</div>
+        <div class="key">/</div>
+        <div class="key" style="padding: left 80px;width: 90Px;font-size: small;">pause</div>
+        <div class="key">1</div>
+        <div class="key">2</div>
+        <div class="key">3</div>
+    </div>
+    <div class="row" style="margin-left: 2Px;">
+        <div class="key" style="padding-left: 8Px;font-size: smaller;">ctrl</div>
+        <div class="key" style="font-size: smaller;">fn</div>
+        <div class="key" style="font-size:xx-small;">windows</div>
+        <div class="key" style="font-size: smaller;">alt</div>
+        <div class="key" style="padding-left: 160px;padding-right: 90px;font-size: smaller;">space bar</div>
+        <div class="key" style="font-size:smaller;">alt</div>
+        <div class="key" style="font-size:smaller;">ctrl</div>
+        <div class="key"><</div>
+        <div class="key" style="font-size: smaller;">up</div>
+        <div class="key">.</div>
+        <div class="key" style="padding-right: 55Px;">0</div>
+        <div class="key" style="font-size: smaller;margin-top: -57px;padding-bottom: 60Px;">enter</div>
+    </div>
+    </div>
+</body>
+</html>
